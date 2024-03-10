@@ -26,3 +26,5 @@
 
 SELECT author_name From authors WHERE author_id = (
 SELECT author_id From books WHERE title = 'Phep la cua su tinh thuc');
+
+#### Result is "Thich Nhat Hanh"
