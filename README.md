@@ -23,6 +23,7 @@
 |106|Tu nay mam, tu vuon len|2012|6|
 
 #### Data Integrity and Relations
+##### Find the name of the author of the book "Food is the essence of food"
 
 SELECT author_name From authors WHERE author_id = (
 SELECT author_id From books WHERE title = 'Phep la cua su tinh thuc');
